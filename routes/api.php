@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use app\Http\Controllers\CourseController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,4 +19,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::apiResource('course', CourseController::class);
+Route::post('/courses', [CourseController::class, 'store']);
+Route::get('/courses', [CourseController::class, 'index']);
