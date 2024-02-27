@@ -7,7 +7,7 @@ Aleksandrs Ostrovskis DP3-1
    
 Tas ir veids, kā dažādiem datorprogrammu komponentiem jāsadarbojas un jāsaistās viens ar otru. API nodrošina noteiktu funkcionalitāti vai pakalpojumu izmantošanai citās programmās, ļaujot tām izmantot funkcijas vai dati, kas tiek piedāvāti šajā interfeisā.
 
-3. Kā deklarēt mainīgo PHP valodā?
+2. Kā deklarēt mainīgo PHP valodā?
 Lai deklarētu mainīgo, jums vienkārši jānorāda mainīgā nosaukums, pēc tam jānorāda vienāds zīme (=) un beidzot jānorāda vērtība, kuru vēlaties piešķirt mainīgajam. Piemēram:
 
 $mainigais = "vērtība";
